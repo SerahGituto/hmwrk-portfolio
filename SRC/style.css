@@ -1,0 +1,105 @@
+:root {
+  --paragraph-color: #f5f2fe;
+  --about-heading-color: #636669;
+  --visitedlink-color: #551a8b;
+  --contactbtn-color: #6c63ff;
+  --white-color: #ffffff;
+}
+.body-container {
+  text-align: center;
+}
+#links:visited {
+  color: var(--visitedlink-color);
+}
+#email,
+#about {
+  font-size: 50px;
+  text-align: center;
+}
+#heading {
+  font-size: 25px;
+  color: var(--about-heading-color);
+  text-align: center;
+}
+#graphs {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+p {
+  border: solid 0.2px var(--paragraph-color);
+  padding: 20px;
+  background: var(--paragraph-color);
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 1.5;
+  margin: 20px;
+}
+#mailto {
+  font-size: 25px;
+  text-decoration: none;
+  text-align: center;
+}
+#name {
+  font-size: 90px;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+#hi {
+  font-size: 45px;
+  margin-bottom: -40px;
+  margin-top: 30px;
+  font-weight: light;
+}
+.contact-button {
+  padding: 10px;
+  border-radius: 4px;
+  background-color: var(--contactbtn-color);
+  margin-right: 20px;
+  border: 0.1px solid var(--contactbtn-color);
+  margin-bottom: 20px;
+}
+.about-button {
+  padding: 10px;
+  border-radius: 4px;
+  background-color: var(--white-color);
+  border: 0.1px solid var(--contactbtn-color);
+}
+#link1 {
+  text-decoration: none;
+  color: var(--white-color);
+}
+#link2 {
+  text-decoration: none;
+  color: var(--contactbtn-color);
+}
+.nav-bar {
+  margin-left: -10px;
+  margin-right: -10px;
+}
+.topic {
+  font-size: 50px;
+  font-weight: bold;
+}
+.topic-explained {
+  font-weight: lighter;
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: left;
+}
+.topic-button {
+  padding: 14px;
+  border: 0.1px solid var(--contactbtn-color);
+  border-radius: 4px;
+  background-color: var(--contactbtn-color);
+  color: var(--white-color);
+}
+.app {
+  margin: 25px;
+}
+img {
+  margin-top: 30px;
+  border-radius: 4px;
+}
